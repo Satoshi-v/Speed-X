@@ -1,0 +1,587 @@
+{
+    "status":200,
+    "data":[
+        {
+            "id":28392,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_BTN_START",
+            "text":"INICIAR"
+        },
+        {
+            "id":28393,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_BTN_STOPPING",
+            "text":"DESCONECTANDO"
+        },
+        {
+            "id":28394,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_BTN_STOP",
+            "text":"DESCONECTAR"
+        },
+        {
+            "id":28395,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_BTN_RECONNECT",
+            "text":"RECONECTAR"
+        },
+        {
+            "id":28396,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_DISCONNECTED",
+            "text":"<b>Desconectado</b>"
+        },
+        {
+            "id":28397,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_RECORD",
+            "text":"REGISTRO"
+        },
+        {
+            "id":28398,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CHOOSE_CONFIG",
+            "text":"ELIJA UN CONFIGURACIÓN"
+        },
+        {
+            "id":28399,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_UUID",
+            "text":"UUID V2Ray"
+        },
+        {
+            "id":28400,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_USERNAME",
+            "text":"Nombre de usuario"
+        },
+        {
+            "id":28401,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_PASSWORD",
+            "text":"Contraseña"
+        },
+        {
+            "id":28402,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_UUID_INVALID",
+            "text":"UUID inválido"
+        },
+        {
+            "id":28403,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_USERNAME_INVALID",
+            "text":"Nombre de usuario inválido"
+        },
+        {
+            "id":28404,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_PASSWORD_INVALID",
+            "text":"Contraseña inválida"
+        },
+        {
+            "id":28405,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_USERNAME_PASSWORD_INVALID",
+            "text":"Por favor complete el nombre de usuario y contraseña"
+        },
+        {
+            "id":28406,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CONFIG_TITLE",
+            "text":"Configuración"
+        },
+        {
+            "id":28407,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_INITIALIZING_APP",
+            "text":"Inicializando aplicación"
+        },
+        {
+            "id":28408,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CONFIG_LOADED",
+            "text":"Configuración cargada"
+        },
+        {
+            "id":28409,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_SEARCHING_FOR_UPDATES",
+            "text":"Buscando actualizaciónes"
+        },
+        {
+            "id":28410,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CONFIG_UPDATED",
+            "text":"Configuraciones actualizadas con exito"
+        },
+        {
+            "id":28411,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CONFIG_NOT_SUPPORTED",
+            "text":"Parece que esta configuración no es compatible con esta aplicación"
+        },
+        {
+            "id":28412,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_ERROR_ESTABLISHING_CONNECTION_SSH",
+            "text":"<b>Erro ao estabelecer conexão SSH</b>"
+        },
+        {
+            "id":28413,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_RECONNECTION_PROCESS",
+            "text":"Processo de reconexão"
+        },
+        {
+            "id":28414,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_RECONNECTING_IN",
+            "text":"Reconectando em: %ss"
+        },
+        {
+            "id":28415,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_RECONNECTING",
+            "text":"Reconectando..."
+        },
+        {
+            "id":28416,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CONNECTING",
+            "text":"Conectando..."
+        },
+        {
+            "id":28417,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STOPPING",
+            "text":"Parando..."
+        },
+        {
+            "id":28418,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_LOCAL_IP",
+            "text":"IP local: %s"
+        },
+        {
+            "id":28419,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_LOCAL_IP_INFO",
+            "text":"IPv4 Local: %1$s/%2$d MTU: %3$d"
+        },
+        {
+            "id":28420,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_DNS_SERVER_INFO",
+            "text":"Servidor DNS: %s"
+        },
+        {
+            "id":28421,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_ROUTES_INFO_INCL",
+            "text":"Rotas: %s"
+        },
+        {
+            "id":28422,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_ROUTES_INFO_EXCL",
+            "text":"Rotas excluídas: %s"
+        },
+        {
+            "id":28423,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_INVALID_CONFIG_OVPN",
+            "text":"Configuração OVPN inválida"
+        },
+        {
+            "id":28424,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_ERROR",
+            "text":"Erro: %s"
+        },
+        {
+            "id":28425,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CONFIG_NOT_FOUND_TITLE",
+            "text":"Configuração não encontrada"
+        },
+        {
+            "id":28426,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CONFIG_NOT_FOUND_TEXT",
+            "text":"Nenhuma configuração encontrada"
+        },
+        {
+            "id":28427,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STOP_APPLICATION",
+            "text":"Desconecta la aplicación"
+        },
+        {
+            "id":28428,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_FINGERPRINT",
+            "text":"<b>Impressão digital: %s</b>"
+        },
+        {
+            "id":28429,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_AUTHENTICATING",
+            "text":"Autenticando..."
+        },
+        {
+            "id":28430,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_AUTHENTICATION_SUCCESS",
+            "text":"<b>Autenticación realizada con éxito</>"
+        },
+        {
+            "id":28431,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_AUTHENTICATION_FAILED",
+            "text":"la autenticación falló"
+        },
+        {
+            "id":28432,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_AUTHENTICATION_FAILED_TEXT",
+            "text":"No se puede autenticar con el servidor. Por favor verifique su nombre de usuario y contraseña.."
+        },
+        {
+            "id":28433,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_CONNECTED",
+            "text":"Conectado"
+        },
+        {
+            "id":28434,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_DISCONNECTED",
+            "text":"Desconectado"
+        },
+        {
+            "id":28435,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_CONNECTING",
+            "text":"Conectando"
+        },
+        {
+            "id":28436,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_STOPPING",
+            "text":"Parando"
+        },
+        {
+            "id":28437,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_NO_NETWORK",
+            "text":"Sem acesso à internet"
+        },
+        {
+            "id":28438,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_AUTH",
+            "text":"Autenticando"
+        },
+        {
+            "id":28439,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_AUTH_FAILED",
+            "text":"Falha na autenticação"
+        },
+        {
+            "id":28440,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_UNKNOWN",
+            "text":"Desconhecido"
+        },
+        {
+            "id":28441,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_ASSIGN_IP",
+            "text":"Atribuindo IP"
+        },
+        {
+            "id":28442,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_ADD_ROUTES",
+            "text":"Adicionando rotas"
+        },
+        {
+            "id":28443,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_RECONNECTING",
+            "text":"Reconectando"
+        },
+        {
+            "id":28444,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_EXITING",
+            "text":"Saindo"
+        },
+        {
+            "id":28445,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_RESOLVE",
+            "text":"Resolvendo"
+        },
+        {
+            "id":28446,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_TCP_CONNECT",
+            "text":"Conectando (TCP)"
+        },
+        {
+            "id":28447,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_VPN_GENERATE_CONFIG",
+            "text":"Gerando configuração"
+        },
+        {
+            "id":28448,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_WAIT",
+            "text":"Aguardando"
+        },
+        {
+            "id":28449,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_STATE_GET_CONFIG",
+            "text":"Obtendo configuração"
+        },
+        {
+            "id":28450,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_VPN_ESTABLISHED",
+            "text":"<b>VPN CONECTADO</b>"
+        },
+        {
+            "id":28451,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_APP_VERSION",
+            "text":"<b>Versión de App: %s</b>"
+        },
+        {
+            "id":28452,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_MOBILE_INFO",
+            "text":"<b>que se ejecuta en %s %s (%s), Android %s (%s) API %s, ABI %s, (%s)</b>"
+        },
+        {
+            "id":28453,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_ROUTE_REJECTED",
+            "text":"Rota rejeitada:"
+        },
+        {
+            "id":28454,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_COULD_NOT_ADD_DNS",
+            "text":"Não foi possível adicionar DNS:"
+        },
+        {
+            "id":28455,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_ERROR_INTERFACE_TUN",
+            "text":"Erro ao criar interface tun"
+        },
+        {
+            "id":28456,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_OPENING_INTERFACE_TUN",
+            "text":"Abrindo interface tun"
+        },
+        {
+            "id":28457,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CHECKING_USER",
+            "text":"Verificando usuário..."
+        },
+        {
+            "id":28458,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CHECKING_USER_FAILED",
+            "text":"Fallo al verificar usuario"
+        },
+        {
+            "id":28459,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_OVPN_STARTED",
+            "text":"OpenVPN iniciado"
+        },
+        {
+            "id":28460,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_SSL_HANDSHAKE",
+            "text":"<b>SSL Handshake: %s</b>"
+        },
+        {
+            "id":28461,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_INVALID_IP",
+            "text":"IP inválido: %s"
+        },
+        {
+            "id":28462,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CHECK_USER_TITLE",
+            "text":""
+        },
+        {
+            "id":28463,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CHECK_USER_MESSAGE",
+            "text":"👤 Usuario:  {username}<br><br>📆 Expira el: {expiration_date}<br><br>🕐 Dias restantes: {expiration_days}<br><br>📲 Dispositivos: {count_connections}|{limit_connections}"
+        },
+        {
+            "id":28464,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_NETWORK_STATUS",
+            "text":"Status da red: %s"
+        },
+        {
+            "id":28465,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_WELCOME",
+            "text":"Bem-vindo(a)"
+        },
+        {
+            "id":28466,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_INFO",
+            "text":"Aviso"
+        },
+        {
+            "id":28467,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_ALERT",
+            "text":"Alerta"
+        },
+        {
+            "id":28468,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_SSH_LIB_NOT_FOUND",
+            "text":"SSH não encontrado"
+        },
+        {
+            "id":28469,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_V2RAY_NOT_FOUND",
+            "text":"V2Ray não encontrado"
+        },
+        {
+            "id":28470,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_OPENVPN_NOT_FOUND",
+            "text":"OpenVPN não encontrado"
+        },
+        {
+            "id":28471,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_APP_UPDATE_TITLE",
+            "text":"ATUALIZAÇÃO DISPONÍVEL"
+        },
+        {
+            "id":28472,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_APP_UPDATE_MESSAGE",
+            "text":"UMA NOVA VERSÃO DO APLICATIVO ESTÁ DISPONÍVEL, CLIQUE NO BOTÃO ABAIXO PARA ATUALIZAR."
+        },
+        {
+            "id":28473,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_APP_UPDATE_BUTTON",
+            "text":"ATUALIZAR"
+        },
+        {
+            "id":28474,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_APP_UPDATE_INSTALL",
+            "text":"INSTALAR"
+        },
+        {
+            "id":28475,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_APP_UPDATE_DOWNLOADING",
+            "text":"BAIXANDO ATUALIZAÇÃO"
+        },
+        {
+            "id":28476,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_APP_UPDATE_DOWNLOAD_COMPLETED",
+            "text":"DOWNLOAD COMPLETO"
+        },
+        {
+            "id":28477,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CONFIG_NOT_SELECTED",
+            "text":"Nenhuma configuração selecionada"
+        },
+        {
+            "id":28478,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CONFIG_NOT_ACTIVE",
+            "text":"Parece que a configuração selecionada não está ativa"
+        },
+        {
+            "id":28479,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CLEAR_APP_TITLE",
+            "text":"LIMPAR APLICATIVO"
+        },
+        {
+            "id":28480,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CLEAR_APP_MESSAGE",
+            "text":"VOCÊ TEM CERTEZA QUE QUER LIMPAR O APLICATIVO?"
+        },
+        {
+            "id":28481,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_VPN_PERMISSION_DENIED",
+            "text":"ERRO AO ESTABELECER CONEXÃO VPN"
+        },
+        {
+            "id":28482,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_VPN_PERMISSION_DENIED_TEXT",
+            "text":"Desculpe, não foi possível estabelecer a conexão VPN. Isso pode ter ocorrido porque você optou por não adicionar um perfil de VPN, negou o acesso ao serviço VPN ou tem um aplicativo que está usando o VPN sempre ativo. Verifique suas configurações de VPN e verifique se não há outros aplicativos que estejam usando o VPN para garantir que a conexão VPN possa ser estabelecida corretamente."
+        },
+        {
+            "id":28483,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_VPN_PERMISSION_DENIED_BTN",
+            "text":"ABRIR CONFIGURAÇÕES DE VPN"
+        },
+        {
+            "id":28484,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_YES",
+            "text":"Sim"
+        },
+        {
+            "id":28485,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_NO",
+            "text":"Não"
+        },
+        {
+            "id":28486,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CONFIG_IMPORT_TITLE",
+            "text":"IMPORTAR CONFIGURAÇÃO"
+        },
+        {
+            "id":28487,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CONFIG_IMPORT_MESSAGE",
+            "text":"FOI ENCONTRADO UMA CONFIGURAÇÃO NA AREA DE TRANSFERÊNCIA. DESEJA IMPORTAR?"
+        },
+        {
+            "id":28488,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "label":"LBL_CONFIG_IMPORT_BTN_IMPORT",
+            "text":"IMPORTAR"
+        }
+    ]
+}
